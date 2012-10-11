@@ -1,0 +1,6 @@
+This is my faac test utility applications. It has four applications now:
+
+ - pcm2aac: convert pcm audio file to aac file. source code is from http://blog.csdn.net/poechant/article/details/7435054. add small modification to support multile channels
+ - liveaac: capture live audio via portaudio, then encode via faac. Most codes are from butt. It is to test if my modification for butt is correct.
+ - paex_record: it is from original portaudio examples. nothing change
+ - recordacc_pa.cpp: based on paex_record, add support on faac encoding.
